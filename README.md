@@ -62,14 +62,11 @@ http://localhost:8000/?code=sample_authorization_code_123
 ├── styles.css          # CSS styling
 ├── script.js           # JavaScript functionality
 ├── README.md           # This file
-└── .github/
-    └── workflows/
-        └── jekyll-gh-pages.yml  # GitHub Pages deployment
 ```
 
 ## 🚀 Deployment
 
-This project automatically deploys to GitHub Pages when pushed to the main branch. The workflow is configured in `.github/workflows/jekyll-gh-pages.yml`.
+This project automatically deploys to GitHub Pages when pushed to the main branch
 
 ## 🤝 Contributing
 
