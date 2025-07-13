@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Authorization Code</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎵 Spotify Authorization</h1>
+            <p>Your authorization code is ready!</p>
+        </div>
+        
+        <div class="code-section">
+            <div id="code-display" class="code-display">
+                <span id="code-text">Loading...</span>
+            </div>
+            <button id="copy-btn" class="copy-btn" onclick="copyCode()">
+                <span id="copy-text">📋 Copy Code</span>
+            </button>
+        </div>
+        
+        <div class="info-section">
+            <p class="info-text">
+                Use this authorization code to complete your Spotify integration.
+                The code is temporary and will expire soon.
+            </p>
+        </div>
+        
+        <div id="error-section" class="error-section hidden">
+            <p>❌ No authorization code found in the URL.</p>
+            <p class="error-details">Make sure you've been redirected here from the Spotify authorization page.</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
